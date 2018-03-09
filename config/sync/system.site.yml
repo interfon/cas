@@ -1,0 +1,14 @@
+uuid: db69e959-5d7b-4d8c-bd61-58d523cc90e4
+name: 'Interfon CAS'
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
