@@ -1,0 +1,11 @@
+uuid: ba63f75f-5165-4c1b-b0e5-24a76dfe2011
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags
+id: taxonomy_term.tags
+target_entity_type_id: taxonomy_term
+target_bundle: tags
+default_langcode: current_interface
+language_alterable: true
