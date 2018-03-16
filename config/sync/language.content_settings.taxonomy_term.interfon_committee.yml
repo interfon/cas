@@ -1,0 +1,16 @@
+uuid: fc3c4abc-077b-425c-9faa-32693830a65d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.interfon_committee
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.interfon_committee
+target_entity_type_id: taxonomy_term
+target_bundle: interfon_committee
+default_langcode: current_interface
+language_alterable: true

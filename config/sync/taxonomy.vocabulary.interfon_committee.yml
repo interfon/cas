@@ -1,0 +1,9 @@
+uuid: 53a45c94-e1df-4016-9c9c-e694ae1640dd
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Commissions Interfon'
+vid: interfon_committee
+description: ''
+hierarchy: 0
+weight: 0

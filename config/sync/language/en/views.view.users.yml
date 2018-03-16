@@ -1,0 +1,18 @@
+label: Users
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Page items'
+            items_per_page_options_all_label: '- All -'
+      filters:
+        status:
+          expose:
+            label: Active
