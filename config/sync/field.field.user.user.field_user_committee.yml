@@ -1,0 +1,30 @@
+uuid: 74d3f7eb-6a2c-4316-a09c-deba5f05aace
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_user_committee
+    - taxonomy.vocabulary.interfon_committee
+  module:
+    - user
+id: user.user.field_user_committee
+field_name: field_user_committee
+entity_type: user
+bundle: user
+label: Commission
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      interfon_committee: interfon_committee
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
