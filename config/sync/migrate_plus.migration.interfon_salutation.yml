@@ -1,4 +1,4 @@
-uuid: 07746d63-c28c-4e32-aab2-7ec7da4dc5c1
+uuid: 59f5e209-7766-43e3-953a-f7d161e75d7a
 langcode: fr
 status: true
 dependencies:
@@ -7,18 +7,18 @@ dependencies:
       - taxonomy
       - interfon_data_import
 _core:
-  default_config_hash: 8Y4BpU-duqW5p-92NTwhpf649W5j9S2bWzfvpB89egA
-id: interfon_committee_en
+  default_config_hash: Ng4iIks0FTNGcQQjDW2csqAlNARfDZ6JCx1pLFzEvJ4
+id: interfon_salutation
 class: null
 field_plugin_method: null
 cck_plugin_method: null
 migration_tags: null
 migration_group: null
-label: 'Interfon committee english'
+label: Salutation
 source:
   plugin: csv
   track_changes: true
-  path: modules/custom/interfon_data_import/data/committees.csv
+  path: modules/custom/interfon_data_import/data/salutations.csv
   header_row_count: 1
   keys:
     - tid
@@ -38,17 +38,11 @@ source:
 process:
   vid:
     plugin: default_value
-    default_value: interfon_committee
-  tid:
-    plugin: migration
-    source: tid
-    migration: interfon_committee
+    default_value: interfon_salutation
+  tid: tid
   weight: weight
-  name: name_en
-  description: description_en
+  name: name_fr
+  description: description_fr
 destination:
   plugin: 'entity:taxonomy_term'
-  translations: true
-migration_dependencies:
-  required:
-    - interfon_committee
+migration_dependencies: {  }

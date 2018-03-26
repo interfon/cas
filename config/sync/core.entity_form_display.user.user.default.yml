@@ -6,6 +6,7 @@ dependencies:
     - field.field.user.user.field_first_name
     - field.field.user.user.field_last_name
     - field.field.user.user.field_user_committee
+    - field.field.user.user.field_user_salutation
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -49,6 +50,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
+  field_user_salutation:
+    weight: 34
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   language:
     weight: 0

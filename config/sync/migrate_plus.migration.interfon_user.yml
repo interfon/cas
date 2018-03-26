@@ -1,4 +1,4 @@
-uuid: a8340c2a-d6df-4da7-9286-74ed7e730085
+uuid: 512a8932-8f78-45c1-85f2-de2fda599774
 langcode: fr
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - interfon_data_import
 _core:
-  default_config_hash: H_F_gXyX67n2TYHg3e_OcHB63mbZBJic2l0b3Grg4gE
+  default_config_hash: CAQz6UdkkAjKfzHxYGrw80Jao0oD04wRV8DPQkHqZlU
 id: interfon_user
 class: null
 field_plugin_method: null
@@ -17,18 +17,38 @@ label: 'Interfon user migration'
 source:
   plugin: csv
   track_changes: true
-  path: modules/custom/interfon_data_import/data/interfon_users.csv
+  path: modules/custom/interfon_data_import/data/users.csv
   header_row_count: 1
   keys:
     - email
+  column_names:
+    -
+      status: status
+    -
+      email: email
+    -
+      password: 'user password'
+    -
+      title: salutation
+    -
+      first: 'user''s first name'
+    -
+      last: 'user''s last name'
+    -
+      function: 'user''s Interfon function'
+    -
+      committee: 'Interfon committees the user belongs to'
 process:
-  name: username
-  field_first_name: field_first_name
-  field_last_name: field_last_name
-  pass: password
-  status: status
+  name: email
   mail: email
-  init: init
+  pass: email
+  status: status
+  field_user_title: title
+  field_first_name: first
+  field_last_name: last
 destination:
   plugin: 'entity:user'
-migration_dependencies: null
+migration_dependencies:
+  required:
+    - interfon_committee
+  optional: {  }

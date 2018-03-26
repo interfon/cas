@@ -1,0 +1,16 @@
+uuid: e02b60f2-d94b-4aba-95ce-c4d644a31bea
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.interfon_salutation
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.interfon_salutation
+target_entity_type_id: taxonomy_term
+target_bundle: interfon_salutation
+default_langcode: current_interface
+language_alterable: true
