@@ -62,3 +62,6 @@ errors.log
 
 # Ignore bak
 *.bak
+
+# Ignore any scratch stuff
+*/scratch
