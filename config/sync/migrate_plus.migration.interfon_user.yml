@@ -1,54 +1,81 @@
-uuid: 512a8932-8f78-45c1-85f2-de2fda599774
+uuid: 0bfd1159-b247-4ed2-acce-5e96fd5df23b
 langcode: fr
 status: true
 dependencies:
   enforced:
     module:
+      - taxonomy
       - interfon_data_import
 _core:
-  default_config_hash: CAQz6UdkkAjKfzHxYGrw80Jao0oD04wRV8DPQkHqZlU
+  default_config_hash: lgG03_pKV2FJlFzknxHrD3lhWMz8II-CXZSn_D9CPnY
 id: interfon_user
 class: null
 field_plugin_method: null
 cck_plugin_method: null
-migration_tags: null
-migration_group: null
-label: 'Interfon user migration'
+migration_tags:
+  - interfon
+  - user
+migration_group: interfon
+label: 'Interfon user'
 source:
   plugin: csv
+  delimiter: ;
+  enclosure: '"'
   track_changes: true
-  path: modules/custom/interfon_data_import/data/users.csv
+  path: modules/custom/interfon_data_import/data/user.csv
   header_row_count: 1
   keys:
     - email
   column_names:
     -
-      status: status
+      status: 'user status'
     -
-      email: email
+      email: 'email address'
     -
       password: 'user password'
     -
       title: salutation
     -
-      first: 'user''s first name'
+      first: 'first name'
     -
-      last: 'user''s last name'
+      last: 'last name'
     -
-      function: 'user''s Interfon function'
+      language: 'user language'
     -
-      committee: 'Interfon committees the user belongs to'
+      function: 'Interfon function(s)'
+    -
+      committee: 'Interfon committee membership(s)'
 process:
-  name: email
-  mail: email
-  pass: email
   status: status
-  field_user_title: title
-  field_first_name: first
-  field_last_name: last
+  mail: email
+  name: email
+  pass: email
+  field_user_salutation:
+    plugin: migration_lookup
+    migration: interfon_salutation_en
+    source: title
+  field_user_first_name: first
+  field_user_last_name: last
+  field_user_interfon_function:
+    -
+      plugin: explode
+      delimiter: ','
+      source: function
+    -
+      plugin: migration_lookup
+      migration: interfon_function_fr
+  field_user_interfon_committee:
+    -
+      plugin: explode
+      delimiter: ','
+      source: committee
+    -
+      plugin: migration_lookup
+      migration: interfon_committee_fr
 destination:
   plugin: 'entity:user'
 migration_dependencies:
   required:
-    - interfon_committee
-  optional: {  }
+    - interfon_committee_en
+    - interfon_function_en
+    - interfon_salutation_en

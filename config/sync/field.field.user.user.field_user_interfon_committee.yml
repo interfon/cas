@@ -1,17 +1,17 @@
-uuid: 74d3f7eb-6a2c-4316-a09c-deba5f05aace
-langcode: fr
+uuid: 813f10e9-feb5-47a8-a567-c69f59e8b2c4
+langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.user.field_user_committee
+    - field.storage.user.field_user_interfon_committee
     - taxonomy.vocabulary.interfon_committee
   module:
     - user
-id: user.user.field_user_committee
-field_name: field_user_committee
+id: user.user.field_user_interfon_committee
+field_name: field_user_interfon_committee
 entity_type: user
 bundle: user
-label: Commission
+label: Committee
 description: ''
 required: false
 translatable: false

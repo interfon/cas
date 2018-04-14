@@ -2,7 +2,7 @@ uuid: 2f8f3e76-a3a5-4b2c-9c55-76f9c2842567
 langcode: fr
 status: true
 dependencies: {  }
-name: 'Fonctions Interfon'
+name: 'Fonction Interfon'
 vid: interfon_function
 description: ''
 hierarchy: 0

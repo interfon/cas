@@ -1,19 +1,19 @@
-uuid: 0fa61a71-f66b-4b69-aa49-86b7539b60c9
-langcode: fr
+uuid: 2c2dc34c-5687-40e2-a4bd-53bda6ee1f97
+langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
     - user
-id: user.field_user_committee
-field_name: field_user_committee
+id: user.field_user_interfon_function
+field_name: field_user_interfon_function
 entity_type: user
 type: entity_reference
 settings:
   target_type: taxonomy_term
 module: core
 locked: false
-cardinality: 3
+cardinality: 5
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

@@ -1,0 +1,10 @@
+uuid: 6088271b-c47f-4887-bb51-87e126e06d60
+langcode: fr
+status: true
+dependencies: {  }
+id: interfon
+label: interfon
+description: ''
+source_type: null
+module: null
+shared_configuration: null

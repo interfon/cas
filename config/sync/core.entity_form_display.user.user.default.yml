@@ -3,9 +3,10 @@ langcode: fr
 status: true
 dependencies:
   config:
-    - field.field.user.user.field_first_name
-    - field.field.user.user.field_last_name
-    - field.field.user.user.field_user_committee
+    - field.field.user.user.field_user_first_name
+    - field.field.user.user.field_user_interfon_committee
+    - field.field.user.user.field_user_interfon_function
+    - field.field.user.user.field_user_last_name
     - field.field.user.user.field_user_salutation
     - field.field.user.user.user_picture
     - image.style.thumbnail
@@ -23,27 +24,23 @@ content:
   account:
     weight: -10
     region: content
+    settings: {  }
+    third_party_settings: {  }
   contact:
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_user_first_name:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_user_interfon_committee:
     weight: 5
-    region: content
-  field_first_name:
-    weight: 31
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_last_name:
-    weight: 32
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_user_committee:
-    weight: 33
     settings:
       match_operator: CONTAINS
       size: 60
@@ -51,17 +48,37 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
-  field_user_salutation:
-    weight: 34
+  field_user_interfon_function:
+    weight: 4
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_user_last_name:
+    weight: 3
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
     region: content
+  field_user_salutation:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   language:
     weight: 0
     region: content
+    settings: {  }
+    third_party_settings: {  }
   path:
     type: path
     weight: 30
@@ -71,6 +88,8 @@ content:
   timezone:
     weight: 6
     region: content
+    settings: {  }
+    third_party_settings: {  }
   user_picture:
     type: image_image
     settings:

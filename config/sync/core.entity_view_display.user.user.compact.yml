@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.user.compact
-    - field.field.user.user.field_first_name
-    - field.field.user.user.field_last_name
+    - field.field.user.user.field_user_first_name
+    - field.field.user.user.field_user_interfon_committee
+    - field.field.user.user.field_user_interfon_function
+    - field.field.user.user.field_user_salutation
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -18,22 +20,6 @@ targetEntityType: user
 bundle: user
 mode: compact
 content:
-  field_first_name:
-    type: string
-    weight: 1
-    region: content
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-  field_last_name:
-    type: string
-    weight: 0
-    region: content
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
   langcode:
     type: language
     weight: 4
@@ -53,4 +39,8 @@ content:
     third_party_settings: {  }
     label: hidden
 hidden:
+  field_user_first_name: true
+  field_user_interfon_committee: true
+  field_user_interfon_function: true
+  field_user_salutation: true
   member_for: true

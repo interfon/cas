@@ -1,11 +1,11 @@
-uuid: d2ac2159-e4c2-440c-bdb8-8b7662be3afe
-langcode: fr
+uuid: 4f430ec0-1eb3-42aa-9019-fb5b0962050a
+langcode: en
 status: true
 dependencies:
   module:
     - user
-id: user.field_last_name
-field_name: field_last_name
+id: user.field_user_last_name
+field_name: field_user_last_name
 entity_type: user
 type: string
 settings:
@@ -14,7 +14,7 @@ settings:
   case_sensitive: false
 module: core
 locked: false
-cardinality: 1
+cardinality: 3
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

@@ -1,19 +1,19 @@
-uuid: fc73eff7-793a-4986-8a95-e25538d7e3ba
+uuid: d6f22587-a5c2-4521-bf79-fc4329ff93ba
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
     - user
-id: user.field_user_salutation
-field_name: field_user_salutation
+id: user.field_user_interfon_committee
+field_name: field_user_interfon_committee
 entity_type: user
 type: entity_reference
 settings:
   target_type: taxonomy_term
 module: core
 locked: false
-cardinality: 1
+cardinality: 5
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

@@ -1,17 +1,17 @@
-uuid: e61db940-c584-499c-bdec-b5c01b50d82a
+uuid: f8f18092-249c-47ff-a5ad-cb5abdd89dea
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.user.field_user_salutation
-    - taxonomy.vocabulary.interfon_salutation
+    - field.storage.user.field_user_interfon_function
+    - taxonomy.vocabulary.interfon_function
   module:
     - user
-id: user.user.field_user_salutation
-field_name: field_user_salutation
+id: user.user.field_user_interfon_function
+field_name: field_user_interfon_function
 entity_type: user
 bundle: user
-label: Salutation
+label: Function
 description: ''
 required: false
 translatable: false
@@ -21,7 +21,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      interfon_salutation: interfon_salutation
+      interfon_function: interfon_function
     sort:
       field: name
       direction: asc

@@ -2,7 +2,7 @@ uuid: de9861f8-c2a0-440d-b4e7-567070850ea7
 langcode: fr
 status: true
 dependencies: {  }
-name: Salutations
+name: Salutation
 vid: interfon_salutation
 description: 'M, Mme, ...'
 hierarchy: 0
