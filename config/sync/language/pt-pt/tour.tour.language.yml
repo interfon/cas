@@ -1,0 +1,12 @@
+label: Idioma
+tips:
+  language-overview:
+    label: Idiomas
+  language-add:
+    label: 'Adicionar idiomas'
+  language-reorder:
+    label: 'A reordenar os idiomas'
+  language-default:
+    label: 'Defina um idioma como predefinido'
+  language-operations:
+    label: 'A modificar os idiomas'

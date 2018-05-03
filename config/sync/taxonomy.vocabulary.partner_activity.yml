@@ -1,0 +1,9 @@
+uuid: 9e8ea220-7918-40ac-b021-ba616701c463
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Activité partenaire'
+vid: partner_activity
+description: ''
+hierarchy: 0
+weight: 0
