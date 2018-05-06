@@ -1,4 +1,4 @@
-uuid: a16411f6-1fe4-4b4f-80c0-0ab27895b1fa
+uuid: 70a935b6-db61-477e-88e2-1a533b6fffa6
 langcode: fr
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
       - taxonomy
       - interfon_data_import
 _core:
-  default_config_hash: wEjBVtAmXH_iUWusswb7Aan80uHrfcIvDE4F4E1Hnog
+  default_config_hash: 5y6u4M60tHpy0-9vJRjMYuo1fCudHw2zBLzFy8bec0M
 id: interfon_committee_en
 class: null
 field_plugin_method: null
@@ -19,9 +19,11 @@ migration_group: interfon
 label: 'Interfon committee'
 source:
   plugin: csv
+  delimiter: ;
+  enclosure: '"'
   track_changes: true
-  path: modules/custom/interfon_data_import/data/committee.csv
   header_row_count: 1
+  path: modules/custom/interfon_data_import/data/committee.csv
   keys:
     - tid
   column_names:

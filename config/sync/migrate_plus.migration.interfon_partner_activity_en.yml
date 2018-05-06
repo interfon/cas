@@ -1,4 +1,4 @@
-uuid: dc8136e6-812f-4543-8e61-665b44be0328
+uuid: 1fa2bf27-6de0-4e71-924d-e60290c09f1b
 langcode: fr
 status: true
 dependencies:
@@ -7,23 +7,23 @@ dependencies:
       - taxonomy
       - interfon_data_import
 _core:
-  default_config_hash: GeopQyc76gJmJ-01MshRrytyO2UqqNJA4FxmW7xSH88
-id: interfon_function_en
+  default_config_hash: Vfx4LMYNjpAyUDYPJPJ3TRNSCKct9YFAAWwNbZSUnQI
+id: interfon_partner_activity_en
 class: null
 field_plugin_method: null
 cck_plugin_method: null
 migration_tags:
-  - function
+  - activity
   - interfon
 migration_group: interfon
-label: 'Interfon function'
+label: 'Partner activity'
 source:
   plugin: csv
   delimiter: ;
   enclosure: '"'
   track_changes: true
   header_row_count: 1
-  path: modules/custom/interfon_data_import/data/function.csv
+  path: modules/custom/interfon_data_import/data/partner-activity.csv
   keys:
     - tid
   column_names:
@@ -42,12 +42,14 @@ source:
 process:
   vid:
     plugin: default_value
-    default_value: interfon_function
+    default_value: interfon_partner_activity
   tid:
     plugin: migration_lookup
-    migration: interfon_function_fr
+    migration: interfon_partner_activity_fr
     source: tid
-  weight: weight
+  weight:
+    plugin: default_value
+    default_value: csvrownum
   langcode:
     plugin: default_value
     default_value: en
@@ -58,4 +60,4 @@ destination:
   translations: true
 migration_dependencies:
   required:
-    - interfon_function_fr
+    - interfon_partner_activity_fr

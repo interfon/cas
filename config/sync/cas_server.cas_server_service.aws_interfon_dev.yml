@@ -1,0 +1,9 @@
+uuid: a58cd456-d9c9-46e1-93fc-daac1baf1134
+langcode: en
+status: true
+dependencies: {  }
+label: aws-interfon-dev
+id: aws_interfon_dev
+service: 'https://aws-interfon-dev/*'
+sso: true
+attributes: {  }

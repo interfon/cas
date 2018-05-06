@@ -1,4 +1,4 @@
-uuid: ccdc2d11-4ce4-4dce-953d-fc811d6929b4
+uuid: e1b774f9-4dd2-4fc8-8864-2743715101fb
 langcode: fr
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
       - taxonomy
       - interfon_data_import
 _core:
-  default_config_hash: qxkIjb4-yDyhCYjeVx05TYN9c_PNMVBK11bsmci1eqU
+  default_config_hash: bU8QA7qm_gQnLa_tRXb-rPZ48W5ZgrQg5YII1seNkBs
 id: interfon_salutation_en
 class: null
 field_plugin_method: null
@@ -19,9 +19,11 @@ migration_group: interfon
 label: 'Honorific title'
 source:
   plugin: csv
+  delimiter: ;
+  enclosure: '"'
   track_changes: true
-  path: modules/custom/interfon_data_import/data/salutation.csv
   header_row_count: 1
+  path: modules/custom/interfon_data_import/data/salutation.csv
   keys:
     - tid
   column_names:

@@ -1,4 +1,4 @@
-uuid: 18321fd0-dc3a-43eb-b5ca-ee1a7f3f19e8
+uuid: 6aafb64a-8912-4fa2-81a9-ebe788df09ca
 langcode: fr
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
       - taxonomy
       - interfon_data_import
 _core:
-  default_config_hash: ClUJyVepQ3hDB2f12w-a45ScWzAypnrpZqtiDTUIZgg
+  default_config_hash: 8_oyJkhSFBBS2MWiGCIzg05V58mQCs8-OvOyrutw9mc
 id: interfon_function_fr
 class: null
 field_plugin_method: null
@@ -19,9 +19,11 @@ migration_group: interfon
 label: 'Interfon fonction'
 source:
   plugin: csv
+  delimiter: ;
+  enclosure: '"'
   track_changes: true
-  path: modules/custom/interfon_data_import/data/function.csv
   header_row_count: 1
+  path: modules/custom/interfon_data_import/data/function.csv
   keys:
     - tid
   column_names:

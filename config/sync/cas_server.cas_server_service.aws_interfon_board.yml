@@ -1,0 +1,9 @@
+uuid: 55d2a429-5e49-47b7-a43b-3114f7eb3851
+langcode: en
+status: true
+dependencies: {  }
+label: aws-interfon-board
+id: aws_interfon_board
+service: 'https://aws-interfon-board/*'
+sso: true
+attributes: {  }

@@ -1,0 +1,9 @@
+uuid: dcf1ff91-45cd-4081-ab0d-e9f6afedb160
+langcode: en
+status: true
+dependencies: {  }
+label: aws-interfon-uat
+id: aws_interfon_uat
+service: 'https://aws-interfon-uat/*'
+sso: true
+attributes: {  }

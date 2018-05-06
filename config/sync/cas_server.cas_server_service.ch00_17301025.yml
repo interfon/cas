@@ -1,0 +1,9 @@
+uuid: 1cfaaa4e-f3ce-4799-b906-c1ebd56400ab
+langcode: en
+status: true
+dependencies: {  }
+label: ch00-17301025
+id: ch00_17301025
+service: 'https://ch00-17301025.entrydns.org/drupal/interfon/*'
+sso: true
+attributes: {  }

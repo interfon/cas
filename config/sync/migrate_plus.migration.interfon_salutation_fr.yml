@@ -1,4 +1,4 @@
-uuid: 438753c6-c6f1-4181-8df6-5e323b07ef12
+uuid: 0f618bb6-7107-4276-8794-60acef8c16d2
 langcode: fr
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
       - taxonomy
       - interfon_data_import
 _core:
-  default_config_hash: bdoNXTqahMTP4rFLpD4eSgLDXwa1L1sfyaSxMFjRPKU
+  default_config_hash: LC1IDIGwkx3Z5Vc3u6dRsXUJqDg93W5NzxlUPfWOPaI
 id: interfon_salutation_fr
 class: null
 field_plugin_method: null
@@ -19,9 +19,11 @@ migration_group: interfon
 label: Salutation
 source:
   plugin: csv
+  delimiter: ;
+  enclosure: '"'
   track_changes: true
-  path: modules/custom/interfon_data_import/data/salutation.csv
   header_row_count: 1
+  path: modules/custom/interfon_data_import/data/salutation.csv
   keys:
     - tid
   column_names:
