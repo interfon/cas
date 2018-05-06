@@ -1,0 +1,9 @@
+uuid: 8c18bdab-1cd1-41dd-b92e-9bda7edbd7c7
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Activité partenaire'
+vid: interfon_partner_activity
+description: 'Activité du partenaire Interfon'
+hierarchy: 0
+weight: 0
