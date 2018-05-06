@@ -65,3 +65,5 @@ errors.log
 
 # Ignore any scratch stuff
 */scratch
+
+config/*.yml
