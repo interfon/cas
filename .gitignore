@@ -64,6 +64,6 @@ errors.log
 *.bak
 
 # Ignore any scratch stuff
-*/scratch
+scratch
 
 config/*.yml
