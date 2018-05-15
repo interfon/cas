@@ -1,0 +1,14 @@
+uuid: 2356d0a7-d442-4eef-9eeb-e1b19a5b8c1b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.author
+  module:
+    - user
+id: user_add_role_action.author
+label: 'Ajouter le rôle Auteur aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: author

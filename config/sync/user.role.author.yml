@@ -1,0 +1,9 @@
+uuid: a06250a9-e4aa-4199-b770-5c85d634c735
+langcode: fr
+status: true
+dependencies: {  }
+id: author
+label: Auteur
+weight: 4
+is_admin: null
+permissions: {  }
