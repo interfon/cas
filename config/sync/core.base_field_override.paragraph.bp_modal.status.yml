@@ -1,0 +1,22 @@
+uuid: a8ad524a-9ce4-439d-bfab-0f12c2a3e095
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_modal
+id: paragraph.bp_modal.status
+field_name: status
+entity_type: paragraph
+bundle: bp_modal
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

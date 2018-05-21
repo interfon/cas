@@ -1,0 +1,22 @@
+uuid: 6ff3268d-a68c-425e-982d-0e6b752da003
+langcode: fr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - vartheme
+_core:
+  default_config_hash: HZOlwe-1AOEAEAnmR_rWNtD2EhfBCexjYHFEpqmiGVY
+id: vartheme_help
+theme: vartheme
+region: help
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 8ef19f53-a176-480f-80de-c3be7b5e049b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_image
+id: paragraph.bp_image.status
+field_name: status
+entity_type: paragraph
+bundle: bp_image
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

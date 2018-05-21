@@ -1,0 +1,22 @@
+uuid: cfdd6a2a-18c1-47d9-85b8-75e6458ef8c5
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vartheme
+_core:
+  default_config_hash: em1L900YXwJt6EZTjSBbUO9vIO-P9UmOnr6vDKmtQiY
+id: vartheme_messages
+theme: vartheme
+region: header
+weight: -2
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

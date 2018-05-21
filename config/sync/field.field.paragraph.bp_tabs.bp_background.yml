@@ -1,0 +1,23 @@
+uuid: 04c1f8b1-a1af-41b1-9262-a3e146e5d579
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.bp_background
+    - paragraphs.paragraphs_type.bp_tabs
+  module:
+    - options
+_core:
+  default_config_hash: rKel_HSXubRSbukrJnGanL-foVKMM8PqZg1ucRLP2VE
+id: paragraph.bp_tabs.bp_background
+field_name: bp_background
+entity_type: paragraph
+bundle: bp_tabs
+label: Arrière-plan
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

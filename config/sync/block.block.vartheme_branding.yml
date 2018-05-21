@@ -1,0 +1,25 @@
+uuid: 7729c2ef-3ee8-45bc-8a6c-712c46be512a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vartheme
+_core:
+  default_config_hash: q1nXeDtW8SMPv2psk3NpfSaTKYymSzPXRXB0IAHCzcA
+id: vartheme_branding
+theme: vartheme
+region: navigation
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

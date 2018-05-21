@@ -1,0 +1,118 @@
+settings:
+  allowed_values:
+    -
+      label: 'Black slight'
+    -
+      label: 'Black light'
+    -
+      label: 'Black strong'
+    -
+      label: 'Blue slight'
+    -
+      label: 'Blue light'
+    -
+      label: 'Blue strong'
+    -
+      label: 'Bluegrey slight'
+    -
+      label: 'Bluegrey light'
+    -
+      label: 'Bluegrey strong'
+    -
+      label: 'Brown slight'
+    -
+      label: 'Brown light'
+    -
+      label: 'Brown strong'
+    -
+      label: 'Cyan slight'
+    -
+      label: 'Cyan light'
+    -
+      label: 'Cyan strong'
+    -
+      label: 'Green slight'
+    -
+      label: 'Green light'
+    -
+      label: 'Green strong'
+    -
+      label: 'Grey slight'
+    -
+      label: 'Grey light'
+    -
+      label: 'Grey strong'
+    -
+      label: 'Indigo slight'
+    -
+      label: 'Indigo light'
+    -
+      label: 'Indigo strong'
+    -
+      label: 'Lime slight'
+    -
+      label: 'Lime light'
+    -
+      label: 'Lime strong'
+    -
+      label: 'Orange slight'
+    -
+      label: 'Orange light'
+    -
+      label: 'Orange strong'
+    -
+      label: 'Pink slight'
+    -
+      label: 'Pink light'
+    -
+      label: 'Pink strong'
+    -
+      label: 'Purple slight'
+    -
+      label: 'Purple light'
+    -
+      label: 'Purple strong'
+    -
+      label: 'Red slight'
+    -
+      label: 'Red light'
+    -
+      label: 'Red strong'
+    -
+      label: 'Stylish slight'
+    -
+      label: 'Stylish light'
+    -
+      label: 'Stylish strong'
+    -
+      label: 'Teal slight'
+    -
+      label: 'Teal light'
+    -
+      label: 'Teal strong'
+    -
+      label: 'White slight'
+    -
+      label: 'White light'
+    -
+      label: 'White strong'
+    -
+      label: 'Yellow slight'
+    -
+      label: 'Yellow light'
+    -
+      label: 'Yellow strong'
+    -
+      label: Transparent
+    -
+      label: 'Brand Primary Color'
+    -
+      label: 'Brand Secondary Color'
+    -
+      label: 'Brand Success Color'
+    -
+      label: 'Brand Info Color'
+    -
+      label: 'Brand Warning Color'
+    -
+      label: 'Brand Danger Color'

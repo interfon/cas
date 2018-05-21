@@ -1,0 +1,22 @@
+uuid: 88694338-906a-4e48-a8de-76a5b23d3236
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_block
+id: paragraph.bp_block.status
+field_name: status
+entity_type: paragraph
+bundle: bp_block
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

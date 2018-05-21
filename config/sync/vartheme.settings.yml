@@ -1,0 +1,37 @@
+cdn_provider: ''
+modal_enabled: 0
+forms_smart_descriptions: 0
+_core:
+  default_config_hash: 5r493JbGpmZmqdlsjP1HGm8wUVuslpZSScZF2o0G4zE
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: 'public://favicon_0.ico'
+  url: 'https://ch00-17301025.entrydns.org/interfon/drupal/cas/web/sites/default/files/favicon_0.ico'
+  use_default: false
+schemas:
+  bootstrap: 8000
+  vartheme: 8000
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  hero_slider: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  footer: ''
+table_responsive: '-1'
+table: ''
+header_container: 0
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://interfon-logo59x53_0.png'
+  url: ''
+  use_default: false
+langcode: fr

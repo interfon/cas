@@ -1,0 +1,48 @@
+uuid: f822e38e-a26a-472a-a1df-67200307c3fe
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: blWMpCHZ9rPbk-pu9Zfyz-yCHveZXJQTZwqjFoeqJbg
+id: disabled
+label: Disabled
+weight: 100
+locked: true
+auto_upload: false
+auto_download: false
+vault: default
+project: default
+workflow: default
+intelligence_metadata:
+  override: false
+  business_unit: ''
+  business_division: ''
+  campaign_id: ''
+  campaign_rating: 0
+  channel: ''
+  contact_name: ''
+  contact_email: ''
+  content_description: ''
+  external_style_id: ''
+  purchase_order: ''
+  region: ''
+  use_author: true
+  default_author_email: ''
+  use_author_email: true
+  use_contact_email_for_author: false
+  use_business_unit: true
+  use_business_division: true
+  use_campaign_id: true
+  use_campaign_rating: true
+  use_channel: true
+  use_contact_name: true
+  use_contact_email: true
+  use_content_description: true
+  use_external_style_id: true
+  use_purchase_order: true
+  use_region: true
+  use_base_domain: true
+  use_reference_url: true
+filter: project_default
+subfilter: project_default
+language_overrides: {  }

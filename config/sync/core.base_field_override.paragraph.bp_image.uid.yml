@@ -1,0 +1,20 @@
+uuid: fba3550f-4c0c-42c0-93fc-d71f19238b42
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_image
+id: paragraph.bp_image.uid
+field_name: uid
+entity_type: paragraph
+bundle: bp_image
+label: 'Écrit par'
+description: 'L''identifiant (ID) utilisateur de l''auteur du paragraphe.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\paragraphs\Entity\Paragraph::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,6 @@
+settings:
+  allowed_values:
+    0:
+      label: Keine
+    5:
+      label: '5 Sekunden'

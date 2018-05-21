@@ -1,0 +1,18 @@
+settings:
+  allowed_values:
+    -
+      label: None
+    -
+      label: '1 Second'
+    -
+      label: '2 Seconds'
+    -
+      label: '3 Seconds'
+    -
+      label: '4 Seconds'
+    -
+      label: '5 Seconds'
+    -
+      label: '6 Seconds'
+    -
+      label: '7 Seconds'

@@ -1,0 +1,18 @@
+uuid: 59724c91-051e-4d76-9194-e770c12633ea
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_simple
+id: paragraph.bp_simple.created
+field_name: created
+entity_type: paragraph
+bundle: bp_simple
+label: 'Écrit le'
+description: 'Heure de création du paragraphe.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,18 @@
+uuid: be55cd90-46b8-4039-a651-b4e1a1233c67
+langcode: fr
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.homepage
+field_name: homepage
+entity_type: comment
+bundle: comment
+label: 'Page d''accueil'
+description: 'L''adresse de la page d''accueil de l''auteur du commentaire.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: uri

@@ -1,0 +1,22 @@
+uuid: 4b8ff6be-8bfd-4478-a289-9a3ede728745
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_columns
+id: paragraph.bp_columns.status
+field_name: status
+entity_type: paragraph
+bundle: bp_columns
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: 9af35b77-7e21-4770-a201-26283b0b26cc
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_tab_section
+id: paragraph.bp_tab_section.created
+field_name: created
+entity_type: paragraph
+bundle: bp_tab_section
+label: 'Écrit le'
+description: 'Heure de création du paragraphe.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

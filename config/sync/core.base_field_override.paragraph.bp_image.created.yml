@@ -1,0 +1,18 @@
+uuid: bec76749-c413-4cea-9f45-6bb2811bf1a6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_image
+id: paragraph.bp_image.created
+field_name: created
+entity_type: paragraph
+bundle: bp_image
+label: 'Écrit le'
+description: 'Heure de création du paragraphe.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

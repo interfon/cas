@@ -1,0 +1,33 @@
+uuid: 1f5f78e2-779d-42f9-8141-e8978c0c4ce6
+langcode: fr
+status: true
+dependencies: {  }
+label: ch00-17301025-board
+id: ch00_17301025_board
+service: 'https://ch00-17301025.entrydns.org/interfon/drupal/board/web/*'
+sso: true
+attributes:
+  uid: uid
+  uuid: uuid
+  langcode: langcode
+  preferred_langcode: preferred_langcode
+  preferred_admin_langcode: preferred_admin_langcode
+  name: name
+  pass: pass
+  mail: mail
+  timezone: timezone
+  status: status
+  created: created
+  changed: changed
+  access: access
+  login: login
+  init: init
+  roles: roles
+  default_langcode: default_langcode
+  path: path
+  field_user_first_name: field_user_first_name
+  field_user_interfon_committee: field_user_interfon_committee
+  field_user_interfon_function: field_user_interfon_function
+  field_user_last_name: field_user_last_name
+  field_user_salutation: field_user_salutation
+  user_picture: user_picture

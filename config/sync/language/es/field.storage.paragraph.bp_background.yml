@@ -1,0 +1,4 @@
+settings:
+  allowed_values:
+    51:
+      label: Transparente

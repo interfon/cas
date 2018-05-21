@@ -1,0 +1,20 @@
+uuid: b5280b1e-86a1-4b21-9bf1-46a83d257842
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_accordion_section
+id: paragraph.bp_accordion_section.uid
+field_name: uid
+entity_type: paragraph
+bundle: bp_accordion_section
+label: 'Écrit par'
+description: 'L''identifiant (ID) utilisateur de l''auteur du paragraphe.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\paragraphs\Entity\Paragraph::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

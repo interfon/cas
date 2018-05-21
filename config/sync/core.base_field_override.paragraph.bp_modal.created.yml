@@ -1,0 +1,18 @@
+uuid: 4d485067-3352-4182-8fb3-c4b92dbb82b2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_modal
+id: paragraph.bp_modal.created
+field_name: created
+entity_type: paragraph
+bundle: bp_modal
+label: 'Écrit le'
+description: 'Heure de création du paragraphe.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

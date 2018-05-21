@@ -1,0 +1,20 @@
+uuid: f624260f-f826-45af-b219-af73c5cb64dc
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_carousel
+id: paragraph.bp_carousel.uid
+field_name: uid
+entity_type: paragraph
+bundle: bp_carousel
+label: 'Écrit par'
+description: 'L''identifiant (ID) utilisateur de l''auteur du paragraphe.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\paragraphs\Entity\Paragraph::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

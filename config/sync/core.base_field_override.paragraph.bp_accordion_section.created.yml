@@ -1,0 +1,18 @@
+uuid: 24e2a81a-59d7-4867-a2a5-b2231a97e0ba
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_accordion_section
+id: paragraph.bp_accordion_section.created
+field_name: created
+entity_type: paragraph
+bundle: bp_accordion_section
+label: 'Écrit le'
+description: 'Heure de création du paragraphe.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

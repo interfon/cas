@@ -1,0 +1,19 @@
+uuid: d5b0be76-1583-4d05-a3fa-8d8df5ea5644
+langcode: fr
+status: true
+dependencies:
+  module:
+    - path
+    - user
+id: user.user.path
+field_name: path
+entity_type: user
+bundle: user
+label: 'Alias d''URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

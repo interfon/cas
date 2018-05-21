@@ -1,0 +1,2 @@
+smtp_port: '25'
+smtp_protocol: Standard

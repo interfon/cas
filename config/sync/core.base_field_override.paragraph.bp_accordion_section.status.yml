@@ -1,0 +1,22 @@
+uuid: 4a510204-0d2f-4d3a-a7d2-f2be8405532c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_accordion_section
+id: paragraph.bp_accordion_section.status
+field_name: status
+entity_type: paragraph
+bundle: bp_accordion_section
+label: Publié
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

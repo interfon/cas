@@ -1,0 +1,10 @@
+settings:
+  allowed_values:
+    -
+      label: 'Sehr klein'
+    -
+      label: Schmal
+    -
+      label: Mittel
+    -
+      label: Breit

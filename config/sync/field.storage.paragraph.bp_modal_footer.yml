@@ -1,0 +1,22 @@
+uuid: 5470dee4-b3e9-4161-afc3-54e6c241d9b0
+langcode: fr
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+_core:
+  default_config_hash: k1y_v_4at8PaLteHkEc5KgAtdqOpBliTxVhvCB7QS9I
+id: paragraph.bp_modal_footer
+field_name: bp_modal_footer
+entity_type: paragraph
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
