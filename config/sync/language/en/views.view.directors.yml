@@ -1,0 +1,6 @@
+label: Directors
+description: 'Members of the board of directors'
+display:
+  block_1:
+    display_options:
+      block_description: Directors
