@@ -16,7 +16,7 @@ bundle: user
 label: Image
 description: 'Votre visage ou image virtuelle.'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

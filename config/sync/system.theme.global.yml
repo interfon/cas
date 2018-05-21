@@ -1,17 +1,17 @@
 favicon:
   mimetype: image/vnd.microsoft.icon
-  path: ''
+  path: 'public://favicon.ico'
   url: ''
-  use_default: true
+  use_default: false
 features:
   comment_user_picture: true
   comment_user_verification: true
   favicon: true
   node_user_picture: true
 logo:
-  path: ''
+  path: 'public://interfon-logo59x53.png'
   url: ''
-  use_default: true
+  use_default: false
 _core:
   default_config_hash: 9rAU4Pku7eMBQxauQqAgjzlcicFZ2As6zEa6zvTlCB8
 langcode: fr

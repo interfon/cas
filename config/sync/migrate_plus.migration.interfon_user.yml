@@ -1,4 +1,4 @@
-uuid: ecf197ed-ad3e-4ba7-a56b-527626368fb1
+uuid: e5fe77c5-0485-4774-a50a-34cc84bf8e68
 langcode: fr
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
       - taxonomy
       - interfon_data_import
 _core:
-  default_config_hash: XlLtG3eAX7biX1P-kkk2lk9e5s1yVZvy0FCyN6u8WRg
+  default_config_hash: gvjKQudaCN_I9a6YErK4t4jBPgczV_WDrwK-6sfjD_4
 id: interfon_user
 class: null
 field_plugin_method: null
@@ -47,12 +47,30 @@ source:
       committee: 'Interfon committee membership(s)'
 process:
   status: status
+  langcode: language
+  preferred_langcode: language
   mail: email
-  name: email
+  name:
+    -
+      plugin: concat
+      delimiter: .
+      source:
+        - first
+        - last
+    -
+      plugin: explode
+      delimiter: ' '
+    -
+      plugin: concat
+    -
+      plugin: callback
+      callable:
+        - \Drupal\Component\Utility\Unicode
+        - strtolower
   pass: email
   field_user_salutation:
     plugin: migration_lookup
-    migration: interfon_salutation_en
+    migration: interfon_salutation_fr
     source: title
   field_user_first_name: first
   field_user_last_name: last

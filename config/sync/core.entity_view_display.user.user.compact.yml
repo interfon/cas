@@ -7,6 +7,7 @@ dependencies:
     - field.field.user.user.field_user_first_name
     - field.field.user.user.field_user_interfon_committee
     - field.field.user.user.field_user_interfon_function
+    - field.field.user.user.field_user_last_name
     - field.field.user.user.field_user_salutation
     - field.field.user.user.user_picture
     - image.style.thumbnail
@@ -20,9 +21,41 @@ targetEntityType: user
 bundle: user
 mode: compact
 content:
+  field_user_first_name:
+    type: string
+    weight: 1
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_user_interfon_function:
+    type: entity_reference_label
+    weight: 3
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_user_last_name:
+    type: string
+    weight: 2
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_user_salutation:
+    type: entity_reference_label
+    weight: 0
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
   langcode:
     type: language
-    weight: 4
+    weight: 5
     region: content
     label: above
     settings:
@@ -31,7 +64,7 @@ content:
     third_party_settings: {  }
   user_picture:
     type: image
-    weight: 3
+    weight: 4
     region: content
     settings:
       image_style: thumbnail
@@ -39,8 +72,5 @@ content:
     third_party_settings: {  }
     label: hidden
 hidden:
-  field_user_first_name: true
   field_user_interfon_committee: true
-  field_user_interfon_function: true
-  field_user_salutation: true
   member_for: true

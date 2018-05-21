@@ -3,6 +3,7 @@ langcode: fr
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_user_address
     - field.field.user.user.field_user_first_name
     - field.field.user.user.field_user_interfon_committee
     - field.field.user.user.field_user_interfon_function
@@ -11,6 +12,7 @@ dependencies:
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
+    - address
     - image
     - path
     - user
@@ -31,6 +33,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_user_address:
+    weight: 31
+    settings:
+      default_country: null
+    third_party_settings: {  }
+    type: address_default
+    region: content
   field_user_first_name:
     weight: 2
     settings:

@@ -1,11 +1,11 @@
 uuid: db69e959-5d7b-4d8c-bd61-58d523cc90e4
 name: 'Interfon CAS'
-mail: ddcorcoba@hotmail.com
+mail: cooperative.interfon@gmail.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 langcode: fr

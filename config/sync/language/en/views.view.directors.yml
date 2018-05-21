@@ -4,3 +4,11 @@ display:
   block_1:
     display_options:
       block_description: Directors
+  default:
+    display_options:
+      fields:
+        field_user_first_name:
+          label: 'First name'
+        field_user_last_name:
+          label: 'Last name'
+      title: Directors
