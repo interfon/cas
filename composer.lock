@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b4e9b7476c877d0fcb0573325c0a8c2",
+    "content-hash": "8348cf460c64a21c086df78a733ae80e",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -275,6 +275,17 @@
                 "postal"
             ],
             "time": "2018-05-23T13:00:47+00:00"
+        },
+        {
+            "name": "components/dropzone",
+            "version": "5.4.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab-artifacts.s3.amazonaws.com/67/af/67af4e6cbe4f160cb025e3865edb211bc633a9754b11b4c978178d399da46fd9/2018_04_23/64560879/48772162/dist.zip?response-content-disposition=attachment%3Bfilename%3D%22dist.zip%22&X-Amz-Expires=600&X-Amz-Date=20180523T204404Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJTOFWQ3GL4O3Q3FA/20180523/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=fe6b51ef86d516ed9ef5c1c8fddd3ad6a33d012ca7333ff7a2e04323aa6d545e",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "drupal-library"
         },
         {
             "name": "components/highlightjs",

@@ -32,8 +32,20 @@
         "type": "zip"
       }
     }
+  }, {
+    "type": "package",
+    "package": {
+      "name": "components/dropzone",
+      "version": "5.4.0",
+      "type": "drupal-library",
+      "dist": {
+        "url": "https://gitlab-artifacts.s3.amazonaws.com/67/af/67af4e6cbe4f160cb025e3865edb211bc633a9754b11b4c978178d399da46fd9/2018_04_23/64560879/48772162/dist.zip?response-content-disposition=attachment%3Bfilename%3D%22dist.zip%22&X-Amz-Expires=600&X-Amz-Date=20180523T204404Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJTOFWQ3GL4O3Q3FA/20180523/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=fe6b51ef86d516ed9ef5c1c8fddd3ad6a33d012ca7333ff7a2e04323aa6d545e",
+        "type": "zip"
+      }
+    }
   }],
   "require": {
+    "components/dropzone": "^5.4",
     "components/highlightjs": "9.7.*",
     "composer/installers": "^1.5",
     "cweagans/composer-patches": "^1.6",
